@@ -2,6 +2,10 @@
 
 Este projeto é uma variação do famoso **Teorema de Monty Hall**, onde o jogador tenta encontrar um prêmio escondido atrás de uma porta, mas desta vez o jogo ocorre de maneira aleatória, sem a necessidade de um apresentador. A escolha da porta com o prêmio é feita automaticamente pelo sistema.
 
+## Link de Visualização
+
+Você pode visualizar o projeto hospedado na Vercel [aqui](https://jogo-das-portas.vercel.app/).
+
 ## Descrição do Projeto
 
 O **Jogo das Portas** segue a lógica do Monty Hall, mas com a diferença de que, neste caso, a porta com o prêmio é escolhida aleatoriamente pelo sistema. Isso permite que o jogador jogue sozinho, sem a necessidade de interagir com um apresentador.
@@ -31,6 +35,4 @@ O **Jogo das Portas** segue a lógica do Monty Hall, mas com a diferença de que
 
 O Teorema de Monty Hall, usado como base para esse jogo, explora decisões e probabilidades envolvendo portas com prêmios. Embora neste jogo a porta premiada seja escolhida aleatoriamente, o conceito original do Monty Hall ainda é uma parte fundamental para entender como as escolhas influenciam as chances de sucesso.
 
-## Link de Visualização
 
-Você pode visualizar o projeto hospedado na Vercel [aqui](https://jogo-das-portas.vercel.app/).

@@ -2,20 +2,22 @@
 
 Este é um jogo baseado no famoso **Teorema de Monty Hall**, que explora a probabilidade e decisões em jogos de escolha. O projeto simula o cenário clássico em que o jogador tenta escolher a porta que esconde um prêmio, levando em consideração as opções de troca de portas durante o jogo.
 
-## Descrição do Projeto
-
-O **Monty Hall** é um jogo simples em que o jogador deve escolher uma das três portas. Atrás de uma delas há um prêmio e atrás das outras, nada. Depois de uma escolha inicial, o apresentador (um modelo do jogo) revela uma porta sem prêmio e oferece ao jogador a chance de trocar a escolha original. A estratégia de troca aumenta a probabilidade de ganhar o prêmio.
-
 ## Link de Visualização
 
 Você pode visualizar meu projeto hospedado na Vercel [aqui](https://montyhall-three.vercel.app/).
 
+## Descrição do Projeto
+
+O **Monty Hall** é um jogo simples em que o jogador deve escolher uma das três portas. Atrás de uma delas há um prêmio e atrás das outras, nada. Depois de uma escolha inicial, o apresentador (um modelo do jogo) revela uma porta sem prêmio e oferece ao jogador a chance de trocar a escolha original. A estratégia de troca aumenta a probabilidade de ganhar o prêmio.
+
+
 ## Funcionalidades
 
 1. **Página Inicial**: 
-   - 4 divisórias: uma com o nome "Monty Hall", a segunda com botões para incrementar ou decrementar a quantidade de portas, e a terceira com botões para escolher a porta selecionada.
+   - 4 divisórias: uma com o nome "Monty Hall", a segunda com botões para incrementar ou decrementar a quantidade de portas, e a terceira com botões para escolher a porta selecionada, a quarta é um botão que leva ao jogo.
    
 2. **Jogo**:
+   - Alguém escolhe onde está o presente
    - Escolha uma porta inicial.
    - Abra as portas para tentar encontrar o prêmio.
    - Você pode trocar a porta escolhida a qualquer momento.
@@ -26,11 +28,12 @@ Você pode visualizar meu projeto hospedado na Vercel [aqui](https://montyhall-t
 
 ## Como Jogar
 
-1. Defina a quantidade de portas usando os botões de mais (+) e menos (-).
-2. Escolha a porta inicial.
-3. Durante o jogo, selecione portas e tente encontrar o prêmio.
+1. O apresentador define a quantidade de portas usando os botões de mais (+) e menos (-).
+2. O apresentador escolhe a porta inicial.
+3. Durante o jogo, o jogador selecion portas tentando manter a porta certa até o final.
 4. Você pode trocar sua escolha a qualquer momento.
-5. Use os botões de controle para recarregar ou voltar ao início.
+5. O apresentador vai abrindo as portas que ele sabe que não têm o prêmio.
+6. Use os botões de controle para recarregar ou voltar ao início.
 
 ## Teorema de Monty Hall
 
