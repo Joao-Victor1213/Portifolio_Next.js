@@ -8,7 +8,7 @@ O **Monty Hall** é um jogo simples em que o jogador deve escolher uma das três
 
 ## Link de Visualização
 
-Você pode visualizar o projeto hospedado na Vercel [aqui](https://montyhall-three.vercel.app/).
+Você pode visualizar meu projeto hospedado na Vercel [aqui](https://montyhall-three.vercel.app/).
 
 ## Funcionalidades
 
