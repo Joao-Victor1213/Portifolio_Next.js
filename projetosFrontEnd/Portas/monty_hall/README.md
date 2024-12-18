@@ -6,6 +6,10 @@ Este é um jogo baseado no famoso **Teorema de Monty Hall**, que explora a proba
 
 O **Monty Hall** é um jogo simples em que o jogador deve escolher uma das três portas. Atrás de uma delas há um prêmio e atrás das outras, nada. Depois de uma escolha inicial, o apresentador (um modelo do jogo) revela uma porta sem prêmio e oferece ao jogador a chance de trocar a escolha original. A estratégia de troca aumenta a probabilidade de ganhar o prêmio.
 
+## Link de Visualização
+
+Você pode visualizar o projeto hospedado na Vercel [aqui](https://montyhall-three.vercel.app/).
+
 ## Funcionalidades
 
 1. **Página Inicial**: 
@@ -38,6 +42,4 @@ O Teorema de Monty Hall é um problema de probabilidade que se baseia no seguint
 - O jogador tem a opção de manter sua escolha inicial ou trocar para a outra porta restante.
 - A probabilidade de ganhar ao trocar de porta é de 2/3, enquanto a probabilidade de ganhar ao manter a escolha é de 1/3.
 
-## Link de Visualização
 
-Você pode visualizar o projeto hospedado na Vercel [aqui](https://montyhall-three.vercel.app/).
