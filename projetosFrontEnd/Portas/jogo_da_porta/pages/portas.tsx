@@ -9,17 +9,17 @@ import { IoHomeSharp } from "react-icons/io5"; // Importa o ícone `IoHomeSharp`
 
 import { useRouter } from 'next/router'
 
-export default function portas(){
+export default function Portas(){
     const router = useRouter()
     
-    let numPortas:number = Number(router.query.numDoors)
-    let [portaSelecionada, setPortaSelecionada] = useState(0) 
-    let [portaComPresente, setPortaComPresente] = useState(0) 
-    let portas= []
-    let [numPortasAbertas,setNumPortasAbertas] = useState(0)
-    let [fecharPortas, setFecharPortas] = useState(false)
-    let tempoParaFechar = 20 // Tempo inicial que demora para fechar as portas
-    let [mensagem, setMensagem] = useState('Selecione sua porta e encontre o presente!')
+    const numPortas:number = Number(router.query.numDoors)
+    const [portaSelecionada, setPortaSelecionada] = useState(0) 
+    const [portaComPresente, setPortaComPresente] = useState(0) 
+    const portas= []
+    const [numPortasAbertas,setNumPortasAbertas] = useState(0)
+    const [fecharPortas, setFecharPortas] = useState(false)
+    const tempoParaFechar = 20 // Tempo inicial que demora para fechar as portas
+    const [mensagem, setMensagem] = useState('Selecione sua porta e encontre o presente!')
     
     useEffect(() => { //Resolve o problema de não setar o presente ao recarregar a página
         if (router.isReady) { // verifica se o router já foi carregado
@@ -31,7 +31,11 @@ export default function portas(){
 
         setNumPortasAbertas(numPortasAbertas+1)
         if(index == portaComPresente){
-            numPortas - numPortasAbertas == 1 ? setMensagem('Parabéns!! Você venceu.'): setMensagem('Você Perdeu! Mais sorte da próxima.')
+            if((numPortas - numPortasAbertas) == 1){
+                setMensagem('Parabéns!! Você venceu.')
+            }else{
+                setMensagem('Você Perdeu! Mais sorte da próxima.')
+            }
         }
     }
 

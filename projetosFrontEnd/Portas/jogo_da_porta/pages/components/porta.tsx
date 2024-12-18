@@ -7,7 +7,7 @@ export default function Porta(props:any) {
   const corSelecionada: string = 'yellow';
   const corNaoSelecionada: string = 'brown';
 
-  let [portaAberta, setPortaAberta] = useState(false); // Estado para controlar se a porta está aberta ou não.
+  const [portaAberta, setPortaAberta] = useState(false); // Estado para controlar se a porta está aberta ou não.
 
   // Função para abrir a porta. Ela impede a propagação do evento e verifica se a abertura não está bloqueada.
   function abrePorta(event:any){
@@ -21,7 +21,7 @@ export default function Porta(props:any) {
 
   }
 
-  let conteudo = []; // Array que contém o conteúdo da porta
+  const conteudo = []; // Array que contém o conteúdo da porta
 
   if(portaAberta){     // Se a porta estiver aberta, exibe o componente Presente se props.comPresente for true, caso contrário, exibe um div vazio.
 
