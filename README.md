@@ -10,6 +10,11 @@ projetosFullStack/
   projeto1/
   projeto2/
   projeto3/
+
+projetosFrontEnd/
+  projeto1/
+  projeto2/
+  projeto3/
   ...
 ```
 
