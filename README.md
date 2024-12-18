@@ -6,15 +6,15 @@ Bem-vindo ao repositório do meu portfólio! Aqui estão alguns dos meus melhore
 Este repositório está organizado da seguinte forma:
 
 ```
-projetosFullStack/
+FullStack/
   projeto1/
   projeto2/
   projeto3/
 
 projetosFrontEnd/
-  projeto1/
-  projeto2/
-  projeto3/
+  Portas/
+   jogo_da_porta/
+   monty_hall/
   ...
 ```
 
