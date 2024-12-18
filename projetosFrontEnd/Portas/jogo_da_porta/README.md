@@ -1,40 +1,36 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# Jogo das Portas
 
-## Getting Started
+Este projeto é uma variação do famoso **Teorema de Monty Hall**, onde o jogador tenta encontrar um prêmio escondido atrás de uma porta, mas desta vez o jogo ocorre de maneira aleatória, sem a necessidade de um apresentador. A escolha da porta com o prêmio é feita automaticamente pelo sistema.
 
-First, run the development server:
+## Descrição do Projeto
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+O **Jogo das Portas** segue a lógica do Monty Hall, mas com a diferença de que, neste caso, a porta com o prêmio é escolhida aleatoriamente pelo sistema. Isso permite que o jogador jogue sozinho, sem a necessidade de interagir com um apresentador.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Funcionalidades
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+1. **Página Inicial**: 
+   - 4 divisórias: uma com o nome "Jogo das Portas", a segunda com botões para incrementar ou decrementar a quantidade de portas, e a terceira com botões para escolher a porta selecionada.
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+2. **Jogo**:
+   - O sistema escolhe aleatoriamente a porta com o prêmio.
+   - O jogador pode selecionar uma porta e tentar descobrir onde está o prêmio.
+   - Não há a opção de troca de portas, pois a escolha é aleatória.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+3. **Botões de Controle**:
+   - Recarregar a página.
+   - Voltar à página inicial para reiniciar o jogo.
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Como Jogar
 
-## Learn More
+1. Defina a quantidade de portas usando os botões de mais (+) e menos (-).
+2. Escolha uma porta e tente encontrar o prêmio.
+3. A porta com o prêmio é escolhida aleatoriamente pelo sistema, tornando o jogo imprevisível.
+4. Use os botões de controle para recarregar ou voltar ao início.
 
-To learn more about Next.js, take a look at the following resources:
+## Teorema de Monty Hall
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+O Teorema de Monty Hall, usado como base para esse jogo, explora decisões e probabilidades envolvendo portas com prêmios. Embora neste jogo a porta premiada seja escolhida aleatoriamente, o conceito original do Monty Hall ainda é uma parte fundamental para entender como as escolhas influenciam as chances de sucesso.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Link de Visualização
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+Você pode visualizar o projeto hospedado na Vercel [aqui](https://jogo-das-portas.vercel.app/).
