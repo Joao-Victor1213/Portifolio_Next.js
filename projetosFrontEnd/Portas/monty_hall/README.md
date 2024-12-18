@@ -1,40 +1,43 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# Monty Hall Game
 
-## Getting Started
+Este é um jogo baseado no famoso **Teorema de Monty Hall**, que explora a probabilidade e decisões em jogos de escolha. O projeto simula o cenário clássico em que o jogador tenta escolher a porta que esconde um prêmio, levando em consideração as opções de troca de portas durante o jogo.
 
-First, run the development server:
+## Descrição do Projeto
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+O **Monty Hall** é um jogo simples em que o jogador deve escolher uma das três portas. Atrás de uma delas há um prêmio e atrás das outras, nada. Depois de uma escolha inicial, o apresentador (um modelo do jogo) revela uma porta sem prêmio e oferece ao jogador a chance de trocar a escolha original. A estratégia de troca aumenta a probabilidade de ganhar o prêmio.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Funcionalidades
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+1. **Página Inicial**: 
+   - 4 divisórias: uma com o nome "Monty Hall", a segunda com botões para incrementar ou decrementar a quantidade de portas, e a terceira com botões para escolher a porta selecionada.
+   
+2. **Jogo**:
+   - Escolha uma porta inicial.
+   - Abra as portas para tentar encontrar o prêmio.
+   - Você pode trocar a porta escolhida a qualquer momento.
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+3. **Botões de Controle**:
+   - Recarregar a página.
+   - Voltar à página inicial para reiniciar o jogo.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+## Como Jogar
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. Defina a quantidade de portas usando os botões de mais (+) e menos (-).
+2. Escolha a porta inicial.
+3. Durante o jogo, selecione portas e tente encontrar o prêmio.
+4. Você pode trocar sua escolha a qualquer momento.
+5. Use os botões de controle para recarregar ou voltar ao início.
 
-## Learn More
+## Teorema de Monty Hall
 
-To learn more about Next.js, take a look at the following resources:
+O Teorema de Monty Hall é um problema de probabilidade que se baseia no seguinte:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+- Existem três portas. Atrás de uma delas há um prêmio e atrás das outras, nada.
+- O jogador escolhe uma porta.
+- O apresentador, que sabe onde está o prêmio, abre uma das portas restantes, sempre revelando uma porta sem prêmio.
+- O jogador tem a opção de manter sua escolha inicial ou trocar para a outra porta restante.
+- A probabilidade de ganhar ao trocar de porta é de 2/3, enquanto a probabilidade de ganhar ao manter a escolha é de 1/3.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Link de Visualização
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+Você pode visualizar o projeto hospedado na Vercel [aqui](https://monty-hall.vercel.app/).
