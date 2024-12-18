@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+
+  /*Porta*/
+    --altura_porta: 300px;
+    --largura_porta: 150px;
+    --cor_porta: rgb(141, 10, 10);
+    --cor_porta_destaque: brown;
+    --cor_da_fonte_porta:white;
+
+  /*Porta*/
+
+  /*Fonte*/
+    --cor_da_fonte: black;
+  /*Fonte*/
+
+  /*Presente*/
+    --cor_do_laco1: red;
+    --cor_do_laco2: red;
+    --cor_do_presente: green;
+  /*Presente*/
+
+
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: black;
+    --foreground: black;
+    --cor_da_fonte: white;
+
+  }
+}
+
+#__next{
+  background-color: var(--background);
+  display: flex;
+  height:auto;
+  min-height: 100vh;
+  width: 100vw;
+  justify-content: center; /* Centraliza o conteúdo horizontalmente */
+  align-items: center; /* Centraliza o conteúdo verticalmente */
+}

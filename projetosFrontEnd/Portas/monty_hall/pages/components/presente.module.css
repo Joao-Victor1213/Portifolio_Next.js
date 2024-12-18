@@ -1,0 +1,40 @@
+.presente{
+    position: relative; /*Aplica o absoluto somente dentro da caixa*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 60px;
+    height: 60px;
+    box-sizing: border-box;
+}
+
+.topo{
+    width: 100%;
+    height: 30%;
+    background-color: var(--cor_do_presente);
+    box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.base{
+    position: relative; /*Aplica o absoluto somente dentro da caixa*/
+    display: flex;
+    width: 90%;
+    height: 70%;
+    background-color: var(--cor_do_presente);
+}
+
+.laco1{
+    height: 100%;
+    width: 20%;
+    position: absolute;
+    background-color: var(--cor_do_laco1);
+
+}
+.laco2{
+    height: 20%;
+    width: 100%;
+    position: absolute;
+    background-color: var(--cor_do_laco2);
+}

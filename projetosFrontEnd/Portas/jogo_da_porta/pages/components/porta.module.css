@@ -1,0 +1,73 @@
+.conteudo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.porta{
+    height: var(--altura_porta);
+    width: var(--largura_porta);
+    background-color: var(--cor_porta);
+    border: solid;
+    border-color: var(--cor_porta_destaque);
+    box-sizing: border-box;
+    align-items: center;
+    border-bottom: 0px;
+}
+
+.portaAberta{
+    height: 300px;
+    width: 150px;
+    border: solid;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+
+.macaneta{
+    background-color: var(--cor_porta_destaque);
+    border-radius: 50%;
+    height: 10%;
+    width: 15%;
+    margin-left: 5%;
+    margin-bottom: 10%;
+}
+
+.macaneta:hover{
+    background-color: rgba(0, 128, 0, 0.644);
+
+}
+
+.numero{
+    font-size: xx-large;
+    margin-top: 5%;
+    color: var(--cor_da_fonte_porta);
+    font-weight: bolder;
+}
+
+.portaParte1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 20%;
+}
+
+.portaParte2{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: center;
+    width: 100%;
+    height: 80%;
+}
+
+.rodape{
+    width: 160px;
+    height: 10px;
+    background-color: var(--cor_porta_destaque);
+    border-color: black;
+    border: solid;
+}

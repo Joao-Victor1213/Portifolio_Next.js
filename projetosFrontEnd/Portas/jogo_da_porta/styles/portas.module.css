@@ -1,0 +1,78 @@
+.mensagem{
+    text-align: center;
+    font-size: x-large;
+    margin-bottom: 5%;
+    margin-top: 1%;
+    color: var(--cor_da_fonte)
+
+}
+.divMain{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.botaoReiniciar{
+    margin-top: 80px;
+    width: 300px;
+    height: 50px;
+    background-color: brown;
+    color: white;
+    font-weight: bold;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.botaoReiniciar:hover{
+    background-color: rgba(165, 42, 42, 0.623);
+
+}
+
+.botaoHome{
+    margin-top: 5px;
+    width: 300px;
+    height: 50px;
+    background-color: brown;
+    color: white;
+    font-weight: bold;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botaoHome:hover{
+    background-color: rgba(165, 42, 42, 0.582);
+}
+
+@media (max-width: 900px) { /*Para telas menores de 480px*/
+    .divMain > div {
+        flex: 1 1 calc(50% - 10px); /* Cada porta ocupa metade da largura da tela */
+        max-width: calc(50% - 10px); /* 2 colunas por linha */
+    }
+    .divMain {
+        flex: 1 1 100%; /* A div ocupa a largura da tela */
+        max-width: 100%;
+    }
+    .mensagem {
+        font-size: x-large;
+    }
+}
+
+@media (max-width: 500px) { /*Para telas menores de 480px*/
+    .divMain > div {
+        flex: 1 1 100%; /* As portas ocupam toda a largura da tela */
+        max-width: 100%;
+    }
+    .divMain {
+        flex: 1 1 100%; /* A div ocupa a largura da tela */
+        max-width: 100%;
+    }
+    .mensagem {
+        font-size: x-large;
+    }
+}
+

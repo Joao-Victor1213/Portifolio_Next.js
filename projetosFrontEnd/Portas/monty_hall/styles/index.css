@@ -1,0 +1,81 @@
+
+  button{
+    width: 20%;
+    font-size: x-large;
+  }
+
+.div_main {
+    display: flex;
+    gap: 1%; /* Espaçamento entre os elementos */
+    width: 400px; /* Largura da div principal */
+    height: 400px; /* Altura da div principal */
+    margin: auto;
+    flex-direction: row; /* Alinha as divs na horizontal */
+    flex-wrap: wrap; /* Permite que as divs quebrem para a linha seguinte quando necessário */
+    box-sizing: border-box;
+    border: solid 1px;
+    border-color: black;
+}
+
+.div_inter {
+    width: 49%; /* Cada div interna ocupa 50% da largura disponível */
+    height: 49%; /* Cada div interna ocupa 50% da altura disponível */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Alinha o conteúdo dentro de .div_inter */
+    align-items:baseline; /* Alinha o conteúdo dentro de .div_inter */
+}
+
+.blue {
+    background-color: #0000ff;
+}
+
+button.blue:hover {
+    background-color: #5656fc;
+    color: white;
+}
+
+.red {
+    background-color: #ff0000;
+}
+
+.green {
+    background-color: green;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+
+.div_botoes{
+    margin-top: 10%;
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+    width: 100%;
+    justify-content: center;
+}
+
+
+.number{
+    font-size: 300%;
+    font-family: Times, serif;
+    font-weight: bolder;
+}
+.white {
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: center;
+    gap: 3%;
+}
+
+.p_Titulo {
+    font-size: 300%;
+    text-wrap:wrap;
+    text-align: left;
+    margin-left: 5%;
+}
