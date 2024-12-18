@@ -18,15 +18,15 @@ projetosFrontEnd/
   ...
 ```
 
-- Cada pasta dentro de `portifolio/` representa um projeto independente.
+- Cada pasta dentro de `FullStack/` ou `projetosFrontEnd/` representa um projeto independente.
 - Cada projeto possui seu próprio código-fonte, estrutura e dependências, permitindo que sejam executados de forma autônoma.
 
 ## Objetivo
 Este portfólio tem como propósito:
 
 1. Mostrar minhas habilidades em desenvolvimento front-end e back-end.
-2. Demonstrar o uso de tecnologias modernas, como **React**, **Next.js**, **API REST** e outras ferramentas.
-3. Destacar projetos que resolvem problemas reais ou apresentam soluções criativas.
+2. Demonstrar o uso de tecnologias modernas, como **React**, **Next.js** e outras ferramentas.
+3. Destacar projetos que resolvem problemas ou apresentam soluções criativas.
 
 
 ## Projetos Incluídos
@@ -38,17 +38,17 @@ Este portfólio tem como propósito:
 - **Descrição:** Breve descrição do que o projeto faz.
 - **Tecnologias:** Liste as tecnologias principais utilizadas.
 
-... (Adicione descrições para os outros projetos aqui)
 
 ## Implantação
-Todos os projetos podem ser visualizados online através das URLs fornecidas pela **Vercel**, onde cada subprojeto foi implantado de forma independente.
+Todos os projetos podem ser visualizados online através das URLs fornecidas pela **Vercel**, onde cada projeto foi implantado de forma independente. Você consegue acessar atráves de um link que estará disponivel do Readme.md do projeto.
 
 ## Contato
 Se você tiver alguma dúvida ou quiser entrar em contato, sinta-se à vontade para me enviar uma mensagem:
 
-- **Email:** [seu-email@example.com](mailto:seu-email@example.com)
-- **LinkedIn:** [Seu Perfil](https://linkedin.com/in/seu-perfil)
-- **GitHub:** [Seu GitHub](https://github.com/seu-usuario)
+- **Email:** [joaooliverprofissional@gmail.com](mailto: joaooliverprofissional@gmail.com)
+- **LinkedIn:** [joão-oliveira-a7b1b0266](www.linkedin.com/in/joão-oliveira-a7b1b0266)
+- **GitHub:** [Joao-Victor1213](https://github.com/Joao-Victor1213)
+- **Whatsapp:** [(31) 993570508](https://github.com/Joao-Victor1213)
 
 Obrigado por visitar meu portfólio!
 
