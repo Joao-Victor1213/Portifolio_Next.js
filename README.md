@@ -45,10 +45,11 @@ Todos os projetos podem ser visualizados online através das URLs fornecidas pel
 ## Contato
 Se você tiver alguma dúvida ou quiser entrar em contato, sinta-se à vontade para me enviar uma mensagem:
 
-- **Email:** [joaooliverprofissional@gmail.com]
-- **LinkedIn:** [joão-oliveira-a7b1b0266](www.linkedin.com/in/joão-oliveira-a7b1b0266)
+- **Email:** [joaooliverprofissional@gmail.com](mailto:joaooliverprofissional@gmail.com)
+- **LinkedIn:** [joão-oliveira-a7b1b0266](https://www.linkedin.com/in/joão-oliveira-a7b1b0266)
 - **GitHub:** [Joao-Victor1213](https://github.com/Joao-Victor1213)
-- **Whatsapp:** [(31) 993570508](https://github.com/Joao-Victor1213)
+- **Whatsapp:** [WhatsApp: (31) 99357-0508](https://wa.me/5531993570508)
+- **Ligações:** [Ligar para (31) 99986-5340](tel:+5531999865340)
 
 Obrigado por visitar meu portfólio!
 
