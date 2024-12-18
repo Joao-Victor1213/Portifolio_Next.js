@@ -6,7 +6,7 @@ Bem-vindo ao repositório do meu portfólio! Aqui estão alguns dos meus melhore
 Este repositório está organizado da seguinte forma:
 
 ```
-portifolio/
+projetosFullStack/
   projeto1/
   projeto2/
   projeto3/
