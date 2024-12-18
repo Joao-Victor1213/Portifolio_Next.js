@@ -45,7 +45,7 @@ Todos os projetos podem ser visualizados online através das URLs fornecidas pel
 ## Contato
 Se você tiver alguma dúvida ou quiser entrar em contato, sinta-se à vontade para me enviar uma mensagem:
 
-- **Email:** [joaooliverprofissional@gmail.com](mailto: joaooliverprofissional@gmail.com)
+- **Email:** [joaooliverprofissional@gmail.com]
 - **LinkedIn:** [joão-oliveira-a7b1b0266](www.linkedin.com/in/joão-oliveira-a7b1b0266)
 - **GitHub:** [Joao-Victor1213](https://github.com/Joao-Victor1213)
 - **Whatsapp:** [(31) 993570508](https://github.com/Joao-Victor1213)
