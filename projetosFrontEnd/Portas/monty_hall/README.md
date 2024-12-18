@@ -40,4 +40,4 @@ O Teorema de Monty Hall é um problema de probabilidade que se baseia no seguint
 
 ## Link de Visualização
 
-Você pode visualizar o projeto hospedado na Vercel [aqui](https://monty-hall.vercel.app/).
+Você pode visualizar o projeto hospedado na Vercel [aqui](https://montyhall-three.vercel.app/).
