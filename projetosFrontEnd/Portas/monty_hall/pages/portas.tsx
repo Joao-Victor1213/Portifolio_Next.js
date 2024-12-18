@@ -9,16 +9,16 @@ import { IoHomeSharp } from "react-icons/io5"; // Importa o ícone `IoHomeSharp`
 
 import { useRouter } from 'next/router'
 
-export default function portas(){
+export default function Portas(){
     const router = useRouter()
     
-    let numPortas:number = Number(router.query.numDoors)
-    let [portaSelecionada, setPortaSelecionada] = useState(0) 
-    let [portaComPresente, setPortaComPresente] = useState(Number(router.query.door)) //Coloca o presente na porta recebida
-    let portas= []
-    let [numPortasAbertas,setNumPortasAbertas] = useState(0)
-    let [fecharPortas, setFecharPortas] = useState(false)
-    let [mensagem, setMensagem] = useState('Selecione sua porta e encontre o presente!')
+    const numPortas:number = Number(router.query.numDoors)
+    const [portaSelecionada, setPortaSelecionada] = useState(0) 
+    const [portaComPresente, setPortaComPresente] = useState(Number(router.query.door)) //Coloca o presente na porta recebida
+    const portas= []
+    const [numPortasAbertas,setNumPortasAbertas] = useState(0)
+    const [fecharPortas, setFecharPortas] = useState(false)
+    const [mensagem, setMensagem] = useState('Selecione sua porta e encontre o presente!')
     
     // Atualiza o estado da porta com o presente quando a URL mudar, corrige o problema de perca da posição do presente ao recarregar a página
     useEffect(() => {
@@ -32,7 +32,11 @@ export default function portas(){
 
         setNumPortasAbertas(numPortasAbertas+1)
         if(index == portaComPresente){
-            numPortas - numPortasAbertas == 1 ? setMensagem('Parabéns!! Você venceu.'): setMensagem('Você Perdeu! Mais sorte da próxima.')
+            if((numPortas - numPortasAbertas) == 1){
+                setMensagem('Parabéns!! Você venceu.')
+            }else{
+                setMensagem('Você Perdeu! Mais sorte da próxima.')
+            }
         }
     }
 
@@ -58,7 +62,7 @@ export default function portas(){
     }
 
     for (let index = 1; index <= numPortas; index++) {
-        let tempoParaFechar = 50
+        const tempoParaFechar = 50
         portas.push(
         <Porta selecionada = {
             index == portaSelecionada ? true: false}
