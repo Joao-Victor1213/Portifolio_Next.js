@@ -1,0 +1,37 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    width: 95vw;
+    height: auto;
+    min-height: 100vh;
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.entradaTexto{
+    width: 60%;
+    padding: 3%;
+    color: black;
+}
+
+.entradaNumber{
+    width: 60%;
+    padding: 3%;
+    color: black;
+
+}
+
+.botao{
+    background-color: var(--cor-Botoes);
+    width: 50%;
+    padding: 1%;
+    border-radius: 15px;
+}
+
+.botao:hover{
+    background-color: var(--cor-BotoesHover);
+}
