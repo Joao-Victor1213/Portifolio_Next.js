@@ -1,0 +1,43 @@
+.botaoComecar{
+    background-color: var(--cor-Botoes);
+    width: 40%;
+    padding: 3%;
+    border-radius: 20px;
+
+    font-size: 2rem;
+}
+
+.botaoComecar:hover{
+    background-color: var(--cor-BotoesHover);
+}
+.main{
+    padding: auto;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+}
+
+.titulo{
+    font-size: 4rem;
+    font-weight: bolder;
+
+}
+
+@media (max-width: 500px)  {
+    .botaoComecar{
+        width: 90%;
+        padding: 5%;
+    
+        border-radius: 20px;
+    }
+
+    .titulo{
+        font-size: 3.6rem;
+        font-weight: bolder;
+    }
+    
+}

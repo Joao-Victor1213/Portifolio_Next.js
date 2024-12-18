@@ -1,0 +1,165 @@
+@keyframes giro{
+    from{
+		transform: rotateY(0);
+
+    }
+    25%{
+		transform: rotateY(180deg);
+    }
+    to{
+		transform: rotateY(340deg);
+        background-color: green;
+
+    }
+}
+
+  
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    padding: 8vh;
+
+    height: auto;
+    min-height: 100vh;
+}
+
+/*Temporizador*/
+.temporizador{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: blueviolet;
+
+    border: 10px solid var(--amarelo-destaque);
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+
+    margin-bottom: 10px;
+}
+
+.textoTemporizador{
+    margin: auto;
+    font-size: 3rem;
+    text-align: center;
+    color: var(--amarelo-destaque);
+}
+/*Temporizador*/
+
+.titulo{
+    font-size: 4rem;
+    font-weight: bolder;
+    margin-bottom: 10px;
+    color: white;
+
+}
+
+.pergunta{
+    font-size: 2rem;
+}
+/*Respostas*/
+.resposta{
+    margin-top: 10px;
+    width: 50%;
+    border-radius: 15px;
+    background-color: white;
+    color: black;
+    text-align: left;
+    padding: 15px;
+    padding-left: 2%;
+    font-weight:700;
+    font-size: 1.5rem;
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:3%;
+}
+
+.clicavel:hover{
+    background-color: rgba(0, 0, 255, 0.514);
+    color: white;
+}
+
+.letraBotao{
+    padding: 1%;
+    width: 50px;
+    height: 50px;
+
+    color: white;
+    font-weight: 900;
+
+    border-radius: 50%;
+
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*Respostas*/
+
+
+/*Mudanças de cor das respostas*/
+.respostaCerta{
+    animation-duration: 1s;
+    animation-name: giro;
+    color: white;
+
+    perspective: 1000px;
+
+}
+
+.respostaCerta:hover{
+    background-color: green;
+    color: white;
+
+}
+
+.respostaErrada{
+    background-color: red;
+    color: white;
+
+}
+.respostaErrada:hover{
+    background-color: red;
+    color: white;
+
+}
+/*Mudanças de cor das respostas*/
+
+
+/*Para telas menores*/
+@media (max-width: 700px)  {
+    .main{
+    width: 100%;
+    padding: 0%;
+    padding-top: 10%;
+    }
+
+    .temporizador{
+        width: 150px;
+        height: 150px;
+    }
+    .resposta{
+        width: 90%;
+        padding-left: 10%;
+        font-size: 1rem;
+        font-weight: bolder;
+    }
+    .pergunta{
+        font-size: 1rem;
+    }
+}
+
+/*Para telas menores*/
+

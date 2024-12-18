@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  --amarelo-destaque: rgb(187, 187, 54);
+  --cor-Botoes: rgb(82, 0, 158);
+  --cor-BotoesHover: rgba(128, 128, 128, 0.575);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: blueviolet;
+    --foreground: #ededed;
+  }
+}
+
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: "Bungee Spice", sans-serif;
+
+}
+
+*{
+  
+  font-family: cursive, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+/*cores das letras*/
+.A{
+  background-color: rgb(179, 179, 4);
+
+}
+
+.B{
+  background-color: rgb(75, 5, 141);
+
+}
+
+.C{
+  background-color: green;
+
+}
+
+.D{
+  background-color: red;
+
+}
+
