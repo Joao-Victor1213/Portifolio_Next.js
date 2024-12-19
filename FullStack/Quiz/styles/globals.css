@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Grandstander:ital,wght@0,100..900;1,100..900&display=swap');
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -21,13 +24,13 @@
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: "Bungee Spice", 'Times New Roman', Times, serif;
+  font-family:'Times New Roman', Times, serif, sans-serif;
 
 }
 
 *{
   
-  font-family: "Bungee Spice", 'Times New Roman', Times, serif;
+  font-family: "Grandstander", serif;
   font-weight: 400;
   font-style: normal;
 }
