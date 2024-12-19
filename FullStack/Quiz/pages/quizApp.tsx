@@ -13,7 +13,6 @@ import { useRef } from "react";
 export function getServerSideProps(){
   return{
     props:{
-      texto:'teste'
     }
   }
 }
@@ -28,7 +27,7 @@ export default function Quiz(){
     const [questoesRespondidas, setQuestoesRespondidas] = useState<Questao[]>([])
     const [tempo, setTempo] = useState<number>(tempoParaResposta)
     const timeoutRef = useRef<NodeJS.Timeout | null>(null);
-
+    const [carregando, setCarregando] = useState(true)
     function endGame(){
 
         let respostasCertas = 0
@@ -145,7 +144,11 @@ export default function Quiz(){
       }
         
     useEffect(() => { //Busca a primeira questão
-        buscaQuestao();
+        buscaQuestao().then(
+          ()=>{
+            setCarregando(false)
+          }
+        );
 
       }, []); 
 
@@ -182,7 +185,9 @@ export default function Quiz(){
         return () => clearTimeout(timeoutRef.current!); // Limpa o temporizador ao desmontar
       }, [questao]);
       /*Logica do Temporizador*/
-
+      if(carregando){
+        return(<div className="w-screen h-screen flex justify-center items-center"><img src="/carregando.gif" alt="GIF exemplo" className=" w-14 self-center"/></div> ) //Retorna carregando
+      }
     return(
     <main className={Styles.main}>
         <h1 className={Styles.titulo}>Quiz Geral</h1>
