@@ -175,7 +175,6 @@ export default function Quiz(){
                 return 0;                
               }
               return 0;                
-
             }
             return prev - 1;
           });
