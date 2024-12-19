@@ -14,7 +14,6 @@ FrontEnd/
   Portas/
    jogo_da_porta/
    monty_hall/
-  ...
 ```
 
 - Cada pasta dentro de `FullStack/` ou `FrontEnd/` representa um projeto independente.
