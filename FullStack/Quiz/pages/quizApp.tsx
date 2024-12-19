@@ -51,6 +51,7 @@ export default function Quiz(){
 
     async function buscaQuestao(): Promise<void> {
         try {
+          setCarregando(true)
           const resposta:Response = await fetch(geraUrl(questoesRespondidas));
           console.log(resposta)
           const data = await resposta.json()
@@ -61,6 +62,7 @@ export default function Quiz(){
 
             if(questao) todasQuestoes.push(questao) //Adiciona a questão atual a todas as questões
             endGame() // Envia todas as quentões respondidas
+            setCarregando(false)
             return
 
           }else{
@@ -80,10 +82,14 @@ export default function Quiz(){
             if(questao) guardaQuestaoAnterior(questao) //Se existe uma questao, guarda ela
             
             setQuestao(questaoConvertida);
+            setCarregando(false)
+
           }
 
         } catch (error) {
           console.error("Erro ao buscar a questão:", error);
+          setCarregando(false)
+
         }
       }
       
@@ -175,6 +181,7 @@ export default function Quiz(){
                 return 0;                
               }
               return 0;                
+
             }
             return prev - 1;
           });
