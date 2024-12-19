@@ -41,7 +41,7 @@ Este portfólio tem como propósito:
 - **Descrição:** A aplicação Monty hall relembra o problema de monty_hall, esta aplicação deve ser jogada por duas pessoas, uma sendo a apresentadora que guiara o jogador, o jogo consiste em abrir as portas para no fim, ficar com a porta correta.
 - **Tecnologias:** Next.js, CSS, Typescript
 
-### Projeto 3:  Jogo das Portas
+### Projeto 4:  Jogo das Portas
 - **Descrição:** Essa é uma variação do Jogo de Monty Hall, porém aqui é possivel jogar sozinho, pois a porta certa é escolhida de modo aleatorio pelo sistema.
 - **Tecnologias:** Next.js, CSS, Typescript
 ## Implantação
