@@ -196,7 +196,7 @@ export default function Quiz(){
       }
     return(
     <main className={Styles.main}>
-        <h1 className={Styles.titulo}>Quiz Geral</h1>
+        <h1 className={Styles.titulo}>Quiz 10</h1>
         <div className={Styles.temporizador}><p className={Styles.textoTemporizador}>{tempo}</p></div>
         <h2 className={Styles.pergunta}>{questao?.pergunta}</h2>
         {questao? geraRespostas(questao) : ''}

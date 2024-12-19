@@ -7,7 +7,7 @@ export default function Home() {
 
   return (
     <main className={Styles.main}>
-      <h1 className={Styles.titulo}>Quiz Geral</h1>
+      <h1 className={Styles.titulo}>Quiz 10</h1>
       <button className={Styles.botaoComecar} onClick={()=>{router.push('./quizApp')}}> Começar</button>
     </main>
   );
