@@ -10,15 +10,15 @@ FullStack/
   Quiz/
   Gerenciador de estoque/
 
-projetosFrontEnd/
+FrontEnd/
   Portas/
    jogo_da_porta/
    monty_hall/
   ...
 ```
 
-- Cada pasta dentro de `FullStack/` ou `projetosFrontEnd/` representa um projeto independente.
-- Projetos na pasta `FullStack/` são focados em trabalhar tanto front-end como back-end, e fazem integração com banco de dados mysql ou firebase, já projetos em `projetosFrontEnd/` são projetos trabalhados apenas no front-end.
+- Cada pasta dentro de `FullStack/` ou `FrontEnd/` representa um projeto independente.
+- Projetos na pasta `FullStack/` são focados em trabalhar tanto front-end como back-end, e fazem integração com banco de dados mysql ou firebase, já projetos em `FrontEnd/` são projetos trabalhados apenas no front-end.
 - Cada projeto possui seu próprio código-fonte, estrutura e dependências, permitindo que sejam executados de forma autônoma.
 
 ## Objetivo
