@@ -6,6 +6,14 @@ Este é um jogo baseado no famoso **Teorema de Monty Hall**, que explora a proba
 
 Você pode visualizar meu projeto hospedado na Vercel [aqui](https://montyhall-three.vercel.app/).
 
+## Habilidades demonstradas
+
+   - Criação de Components React
+   - Responsividade
+   - Utilização dos Hooks (useEffect, useRouter, useState)
+   - Utilização de Typescript
+   - Utiilização de eventos
+   
 ## Descrição do Projeto
 
 O **Monty Hall** é um jogo simples em que o jogador deve escolher uma das três portas. Atrás de uma delas há um prêmio e atrás das outras, nada. Depois de uma escolha inicial, o apresentador (um modelo do jogo) revela uma porta sem prêmio e oferece ao jogador a chance de trocar a escolha original. A estratégia de troca aumenta a probabilidade de ganhar o prêmio.

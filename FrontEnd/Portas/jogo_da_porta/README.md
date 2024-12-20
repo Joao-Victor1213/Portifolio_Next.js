@@ -5,6 +5,14 @@ Este projeto é uma variação do famoso **Teorema de Monty Hall**, onde o jogad
 ## Link de Visualização
 
 Você pode visualizar o projeto hospedado na Vercel [aqui](https://jogadaporta.vercel.app/).
+## Habilidades demonstradas
+
+   - Criação de Components React
+   - Responsividade
+   - Utilização dos Hooks (useEffect, useRouter, useState)
+   - Utilização de Typescript
+   - Utiilização de eventos
+   - Geração aleatória de informações
 
 ## Descrição do Projeto
 
