@@ -32,18 +32,23 @@ Este portfólio tem como propósito:
 ### Projeto 1: Quiz 10
 - **Descrição:** O projeto Quiz 10, é uma aplicação de quiz, onde cada pergunta deve ser respondida em somente 10 segundos, no fim o quiz retorna seu resultado.
 - **Tecnologias:** Next.js, Mysql,Typescript ,CSS, Tailwind
+- **Link:** Veja [aqui](https://quiz-mocha-seven.vercel.app/)
 
 ### Projeto 2:  Gerenciador de estoque
 - **Descrição:** Na aplicação Gerenciador de estoque, você pode criar uma conta como gestor para gerir seu estoque e funcionarios, você também pode fazer uma conta como funcionario, e entrar na sua empresa gestora para ter acesso ao seu estoque.
 - **Tecnologias:** Next.js, CSS, Typescript, Tailwind, Firebase
+- **Link:** Veja [aqui](https://controle-de-estoque-seven.vercel.app/)
 
 ### Projeto 3:  Monty Hall
 - **Descrição:** A aplicação Monty hall relembra o problema de monty_hall, esta aplicação deve ser jogada por duas pessoas, uma sendo a apresentadora que guiara o jogador, o jogo consiste em abrir as portas para no fim, ficar com a porta correta.
 - **Tecnologias:** Next.js, CSS, Typescript
+- **Link:** Veja [aqui](https://montyhall-three.vercel.app/)
 
 ### Projeto 4:  Jogo das Portas
 - **Descrição:** Essa é uma variação do Jogo de Monty Hall, porém aqui é possivel jogar sozinho, pois a porta certa é escolhida de modo aleatorio pelo sistema.
 - **Tecnologias:** Next.js, CSS, Typescript
+- **Link:** Veja [aqui](https://jogo-da-porta.vercel.app/)
+
 ## Implantação
 Todos os projetos podem ser visualizados online através das URLs fornecidas pela **Vercel**, onde cada projeto foi implantado de forma independente. 
 Você consegue acessar atráves de um link que estará disponivel do Readme.md do projeto.
