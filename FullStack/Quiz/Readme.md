@@ -7,6 +7,22 @@ O **Quiz 10** é uma aplicação de perguntas e respostas,  que desafia usuário
 Você pode visualizar o projeto hospedado na Vercel [aqui](https://quiz-mocha-seven.vercel.app/).
  
 ---
+## Habilidades demonstradas no projeto
+
+   - Criação de Components React
+   - Responsividade
+   - Utilização de Banco de dados Mysql com Next
+   - Criação de APIS
+   - Fazer Requisições
+   - Utilização dos Hooks (useEffect, useRouter, useState)
+   - Tratamento de erros com Exceção
+   - Manipulação de strings
+   - Manipulação de rotas
+   - Utilização de Typescript
+   - Utiilização de eventos
+   - Utiilização de intervalos
+   - Utilização de Classes e Interfaces
+   - Comunicação direta e indireta
 
 ## **Descrição do Projeto**  
 O **Quiz 10** busca perguntas diretamente de um banco de dados MySQL, garantindo flexibilidade e escalabilidade no gerenciamento das questões. Ele é estruturado de forma a oferecer um questionário dinâmico e desafiador, com perguntas que devem ser respondidas rapidamente. Caso o banco de dados não esteja acessível, a aplicação retorna perguntas padrão para manter a experiência do usuário.
