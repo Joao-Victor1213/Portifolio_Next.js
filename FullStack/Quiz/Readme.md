@@ -13,7 +13,7 @@ Você pode visualizar o projeto hospedado na Vercel [aqui](https://quiz-mocha-se
    - Responsividade
    - Utilização de Banco de dados Mysql com Next
    - Criação de APIS
-   - Fazer Requisições
+   - Requisições
    - Utilização dos Hooks (useEffect, useRouter, useState)
    - Tratamento de erros com Exceção
    - Manipulação de strings
