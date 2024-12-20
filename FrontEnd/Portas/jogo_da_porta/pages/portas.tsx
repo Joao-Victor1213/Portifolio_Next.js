@@ -33,8 +33,12 @@ export default function Portas(){
         if(index == portaComPresente){
             if((numPortas - numPortasAbertas) == 1){
                 setMensagem('Parabéns!! Você venceu.')
+                alert("Parabéns!! Você venceu.");
+
             }else{
                 setMensagem('Você Perdeu! Mais sorte da próxima.')
+                alert("Você Perdeu! Mais sorte da próxima.");
+
             }
         }
     }
