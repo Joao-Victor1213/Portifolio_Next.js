@@ -6,7 +6,7 @@ Este é um jogo baseado no famoso **Teorema de Monty Hall**, que explora a proba
 
 Você pode visualizar meu projeto hospedado na Vercel [aqui](https://montyhall-three.vercel.app/).
 
-## Habilidades demonstradas
+## Habilidades demonstradas no projeto
 
    - Criação de Components React
    - Responsividade

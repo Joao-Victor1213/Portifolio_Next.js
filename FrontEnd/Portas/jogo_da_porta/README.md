@@ -5,7 +5,8 @@ Este projeto é uma variação do famoso **Teorema de Monty Hall**, onde o jogad
 ## Link de Visualização
 
 Você pode visualizar o projeto hospedado na Vercel [aqui](https://jogadaporta.vercel.app/).
-## Habilidades demonstradas
+
+## Habilidades demonstradas no projeto
 
    - Criação de Components React
    - Responsividade
