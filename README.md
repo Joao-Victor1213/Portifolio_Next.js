@@ -22,7 +22,7 @@ FrontEnd/
 - Cada projeto possui seu próprio código-fonte, estrutura e dependências, permitindo que sejam executados de forma autônoma.
 
 ## Objetivo
-Este portfólio tem como propósito:
+Este portfólio tem como propósito::
 
 1. Mostrar minhas habilidades em desenvolvimento front-end e back-end.
 2. Demonstrar o uso de tecnologias modernas, como **React**, **Next.js** e outras ferramentas.
