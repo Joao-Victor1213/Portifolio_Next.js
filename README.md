@@ -14,6 +14,7 @@ FrontEnd/
   Portas/
    jogo_da_porta/
    monty_hall/
+  Jogo da mega sena/
 ```
 
 - Cada pasta dentro de `FullStack/` ou `FrontEnd/` representa um projeto independente.
