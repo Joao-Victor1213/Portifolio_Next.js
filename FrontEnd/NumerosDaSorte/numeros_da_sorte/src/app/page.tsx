@@ -48,7 +48,7 @@ export default function Home() {
 
   return (
     <main className={styles.main}>
-      <h1 className={styles.h1}> Numeros da Sorte</h1>
+      <h1 className={styles.h1}> Números da Sorte</h1>
       <div className={styles.description}>
       {
         retornaTagsNumeros() //Crias as tags p para cada numero
