@@ -1,0 +1,15 @@
+:root {
+
+  --font:'Times New Roman', Times, serif
+
+
+}
+
+body{
+  background-color: black;
+  color: white;
+}
+button{
+  background-color: rgba(167, 167, 167, 0.76);
+  color: white;
+}
