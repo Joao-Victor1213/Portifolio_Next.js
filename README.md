@@ -50,7 +50,7 @@ Este portfólio tem como propósito::
 - **Tecnologias:** Next.js, CSS, Typescript
 - **Link:** Veja [aqui](https://jogo-da-porta.vercel.app/)
 
-### Projeto 5:  Numeros da sorte
+### Projeto 5:  Números da sorte
 - **Descrição:** Esta aplicação têm o objetivo de gerar 6 números aleatórios, como em um sorteio.
 - **Tecnologias:** Next.js, CSS, Typescript
 - **Link:** Veja [aqui](https://numerosdasorte-bay.vercel.app/)
