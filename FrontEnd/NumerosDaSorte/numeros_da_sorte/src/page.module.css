@@ -1,0 +1,97 @@
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+}
+.h1{
+  font-size: 5vw;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+@keyframes resultadoA {
+  from{
+    background-color: red;
+    color: red;
+  }
+  50%{
+    background-color: green;
+    color: green;
+  }
+
+  to{
+    background-color: brown;
+    color: brown;
+  }
+}
+.resultado{
+  background-color: green;
+  color: white;
+  min-width: 50px;
+  min-height: 50px;
+  width: 3vw;
+  height: 6vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+}
+
+
+.resultadoAnimado{
+  background-color: green;
+  color: white;
+  min-width: 50px;
+  min-height: 50px;
+  width: 3vw;
+  height: 6vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  animation: resultadoA 2s infinite;
+}
+
+
+.button{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 20vw;
+  font-family: --font;
+}
+
+.description{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.animacao{
+  background-color: white;
+  height: 20px;
+  width: 3px;
+  animation: animacao 0.8s infinite;
+  align-self: center;
+  &:nth-child(2){ /*Segundo Filho*/
+    animation: animacao 0.8s infinite 0.3s;
+    background-color: red;
+  }
+}
+
+@keyframes animacao {
+  from{
+    height: 20px;
+  }
+  50%{
+    height:10px;
+  }
+  to{
+    height: 5px;
+  }
+  
+}
