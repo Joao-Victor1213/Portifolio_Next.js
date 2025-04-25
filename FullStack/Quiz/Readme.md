@@ -10,7 +10,7 @@ Você pode visualizar o projeto hospedado na Vercel [aqui](https://quiz-mocha-se
 ## Habilidades demonstradas no projeto
 
    - Criação de Components React
-   - Responsividade
+   - Trabalho com Responsividade
    - Utilização de Banco de dados Mysql com Next
    - Criação de APIS
    - Requisições
