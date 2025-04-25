@@ -1,4 +1,4 @@
-# Meu Portfólio Next.js
+# Meu Portfólio Next.js/React/Typescript
 
 Bem-vindo ao repositório do meu portfólio! Aqui estão alguns dos meus melhores projetos desenvolvidos com **Next.js**. Cada projeto foi criado com o objetivo de demonstrar diferentes habilidades que adquiri como programador.
 
