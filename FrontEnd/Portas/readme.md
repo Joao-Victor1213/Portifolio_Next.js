@@ -20,7 +20,7 @@ O **Monty Hall Game** simula o cenário clássico do problema de Monty Hall, com
 ### **Teorema de Monty Hall**
 - O apresentador desempenha um papel fundamental, revelando informações que influenciam as probabilidades e estratégias.
 
----
+-----
 
 ## **Jogo das Portas**
 
@@ -56,5 +56,5 @@ O **Jogo das Portas** é uma variação simplificada do Monty Hall Game, onde a 
 
 Ambos os jogos são baseados no **Teorema de Monty Hall**, mas oferecem experiências distintas:
 
-- O **Monty Hall Game** é ideal para quem deseja entender e aplicar estratégias probabilísticas em um contexto interativo.  
+- O **Monty Hall Game** é ideal para quem deseja entender e aplicar estratégias probabilísticas em um contexto interativo e com mais de uma pessoa.  
 - O **Jogo das Portas** é uma versão direta, voltada para jogar sozinho
