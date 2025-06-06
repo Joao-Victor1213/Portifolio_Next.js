@@ -4,7 +4,7 @@ Este projeto é uma variação do famoso **Teorema de Monty Hall**, onde o jogad
 
 ## Link de Visualização
 
-Você pode visualizar o projeto hospedado na Vercel [aqui]([https://jogo-da-porta.vercel.app/](Aqui).
+Você pode visualizar o projeto hospedado na Vercel [aqui](https://jogo-da-porta.vercel.app/).
 
 ## Habilidades demonstradas no projeto
 
